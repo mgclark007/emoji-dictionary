@@ -12,6 +12,8 @@
 		C31286E21F0445590008ADF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31286E01F0445590008ADF2 /* Main.storyboard */; };
 		C31286E41F04455A0008ADF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31286E31F04455A0008ADF2 /* Assets.xcassets */; };
 		C31286E71F04455A0008ADF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31286E51F04455A0008ADF2 /* LaunchScreen.storyboard */; };
+		C31286EF1F0488A50008ADF2 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31286EE1F0488A50008ADF2 /* DefinitionViewController.swift */; };
+		C31286F11F0DAFDF0008ADF2 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31286F01F0DAFDF0008ADF2 /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C31286E31F04455A0008ADF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C31286E61F04455A0008ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C31286E81F04455A0008ADF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31286EE1F0488A50008ADF2 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		C31286F01F0DAFDF0008ADF2 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				C31286DC1F0445590008ADF2 /* AppDelegate.swift */,
 				C31286DE1F0445590008ADF2 /* ViewController.swift */,
+				C31286EE1F0488A50008ADF2 /* DefinitionViewController.swift */,
+				C31286F01F0DAFDF0008ADF2 /* Emoji.swift */,
 				C31286E01F0445590008ADF2 /* Main.storyboard */,
 				C31286E31F04455A0008ADF2 /* Assets.xcassets */,
 				C31286E51F04455A0008ADF2 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31286DF1F0445590008ADF2 /* ViewController.swift in Sources */,
+				C31286EF1F0488A50008ADF2 /* DefinitionViewController.swift in Sources */,
+				C31286F11F0DAFDF0008ADF2 /* Emoji.swift in Sources */,
 				C31286DD1F0445590008ADF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
